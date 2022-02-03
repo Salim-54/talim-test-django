@@ -1,0 +1,85 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="{% static 'resume/img/favcon.png' %}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'signs/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'resume/css/resume.css' %}">
+    <title>{% block title %}{% endblock title %}</title>
+   
+</head>
+<body>
+    
+
+        <!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar-->
+        <nav class="navtop">
+
+            <a href="/"><img class="logo" src="{% static 'signs/img/loogo.png' %}" alt=""></a>
+            <form class="form-inline d-inline-block mx-5 px-5">
+                <input class="form-control mr-sm-2 my-3 px-3 mx-5 x-search" style="background-color:#70dff534 ; color:rgb(17, 56, 25) ; border-radius: 20px;" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <button class="btn btn-outline-success mx-5 my-2 my-sm-0 d-inline-block" style="background-color:#31d2f2 ;border-radius: 5px; border-color: transparent; " type="submit">Search</button>
+
+
+            <a href=""  style="text-decoration: none;
+                                position:absolute;
+                                color: #31d2f2;
+                                font-size: 40px;
+                                font-weight: bolder;
+                                right: 200px;
+                                top: 10px;
+                                " class="home-out">Log Out</a>
+                            </nav>
+                            
+                            
+                            
+        <section>
+                                
+                                
+                                {% block contents %}{% endblock contents %}
+    
+            <div class="container d-inline-block bg-light " style="width: 200px; border-radius: 15px; height: 320px; position: absolute; margin-top: 10%; right: 5%;">
+                <h1 style="padding-left: 5px;" id="main">Options</h1>
+                <hr>
+                <ul>
+                    
+                    <li><a href="#" style="text-decoration: none; color: yellowgreen;">Read Quran</a></li>
+                    <br>
+                    <li><a href="#" style="text-decoration: none; color: yellowgreen;">Read hadith</a></li>
+                    <br>
+                    <li><a href="#" style=" font-weight: bold  ;text-decoration: none; color: black;">Manage Posts</a></li>
+                    <br>
+                    <li><a href="#" style=" font-weight: bold  ;text-decoration: none; color: rgb(12, 215, 241);">Manage Teams</a></li>
+                    <br>
+                    <li><a href="#" style=" font-weight: bold  ;text-decoration: none; color: rgb(5, 199, 5);">Connect Now</a></li>
+                    <br>
+    
+                </ul>
+            </div>
+    
+        </section>  
+
+
+
+
+   
+    {% block body %}{% endblock body %}
+
+
+
+    <script src="{% static 'signs/js/jquery.js' %}"></script>
+    <script src="{% static 'signs/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'signs/bootstrap/js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'signs/bootstrap/js/bootstrap.min.js' %}"></script>
+
+    <script src="{% static 'resume/js/resume.js' %}"></script>
+
+
+</body>
+</html>

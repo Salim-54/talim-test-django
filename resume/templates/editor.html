@@ -1,0 +1,88 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block contents %}
+
+<div class="container bg-white  d-inline-block " style="margin-top: 10%; margin-left: 5%; width: 15%; height: 500px; border-radius: 10px;">
+    <div class="d-block pt-3" style="height: 110px; border-width: 25px;">
+        <div class="d-inline-block">
+            <img class="pt-1" src= {% static 'resume/img/profile1.png' %} style="width: 60px; height: auto;" alt="">
+            <div class="d-inline-block" >
+                <b>N. SALIM</b>       
+                <br>
+                <p>Imam Shyorongi</p>  
+            </div>  
+         <hr>
+        </div>
+    </div>
+
+    <div class="container shadow-sm " style="border-radius: 10px;">
+
+        <a href="{% url 'resume:posts' %}" style="text-decoration: none; color: black;"><h5>Edit new khutba</h5></a>
+
+        <hr>
+        <li><a href="" style="text-decoration: none; color: black;">Muqqadimah &bbrktbrk;</a></li>
+        <br>
+        <li><a href="" style="text-decoration: none; color: black;">Add Ayyah &bbrktbrk;</a></li>
+        <br>
+        <li><a href="" style="text-decoration: none; color: black;">Add Hadith &bbrktbrk;</a></li>
+        <br>
+        <li><a href="" style="text-decoration: none; color: black;">Add Dalil &bbrktbrk;</a></li>
+        <br>
+        <li><a href="" style="text-decoration: none; color: black;">Make a break &bbrktbrk;</a></li>
+        <br>
+        <li><a href="" style="text-decoration: none; color: black;">Conclude &bbrktbrk;</a></li>
+        <br>
+        
+       
+
+
+    </div>
+</div>
+
+
+{% endblock contents %}
+
+{% block body %}
+
+
+<div class="container bg-light" style="position: absolute ;top: 170px ;width: 50%; height: 100%; left: 25%; border-radius: 10px; ">
+
+    <div class="row mt-4 mx-1">
+
+        <div class="col-md-3">
+
+            <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>Ibn Mas'uud</option>
+                <option>Mu aadh</option>
+                <option>...</option>
+                <option>...</option>
+              </select>
+        </div>
+
+        
+        <!-- <div class="col-md-3">
+
+            <select class="custom-select"  id="inlineFormCustomSelectPref">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div> -->
+
+
+        
+          
+    </div>
+
+
+
+
+
+</div>
+
+
+
+{% endblock body %}

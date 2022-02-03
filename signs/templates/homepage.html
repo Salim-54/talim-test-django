@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar-->
+
+{% block nav %}
+
+    <div class="home">
+        <nav>
+     
+                <div class="logo"><img style="width: 125%;height: auto;" src= " {% static 'signs/img/loogo.png' %} " alt="logo"></div>
+        
+            <input class="w-25    search mt-4" style="color: white; padding-left: 15px; border-radius: 10px; background-color: #31d2f23f;" type="search" name="search" id="">
+            <a class="" href="{% url 'resume:posts' %}" style="text-decoration: none; color: wheat; padding-top: 20px;">&plusb; make resume</a>
+            <ul>
+                <li>
+                    <a id="signin" href="#">SignIn</a>
+                </li>
+                <li style="color: wheat;"> OR </li>
+                <li>
+                    <a id="signup" href="#">Register</a>
+                </li>
+                
+            </ul>
+
+        </nav>
+    </div>
+
+{% endblock nav %}
+
+    <!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar--><!-- navbar-->
+    <!--display display display display display display display display display display  -->
+{% block body %}
+
+    <div class="quran">
+        <h4 style="padding-top: 10px"><b><a href="#">Read Qur'an In <br> Any Language</a></b></h4>
+    <div class="qphoto"></div>
+    </div>
+
+    <div class="hadith">
+        <h4 style="padding-top: 10px"><b><a href="#">Read Any Hadith <br> In Any Language</a></b></h4>
+    <div class="hphoto"></div>
+    </div>
+    <div class="bar"></div>
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+
+
+{% endblock body %}
+
+
+{% block contents %}
+    <div class="container mt-3   the_cads">
+        <br>
+        <h3 style="text-align: center; color: rgba(255, 255, 255, 0.5); text-decoration: underline;">KHUT'BA OF FRIDAYS</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Madda: </b> <a style="text-decoration: none;color: #31d2f2;" href="#">Al Mauti wa Al Hayaa</a></h5>
+                      <h5 class="card-title"> <b>Khatwib :</b> </h5>
+                      <h5 class="card-title"> <b>Date: </b> 01/10/1999 </h5>
+                      <h5 class="card-title"><b>Place: </b><a style="text-decoration: none;color: #31d2f2;" href="#">location</a></h5>
+                      <h5 class="card-title"> <b>Media-Status: </b> <a href="#" style="color: #31d2f2;"> Public </a> </h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Madda: </b> <a style="text-decoration: none;color: #31d2f2;" href="#">Al Mauti wa Al Hayaa</a></h5>
+                      <h5 class="card-title"> <b>Khatwib :</b> </h5>
+                      <h5 class="card-title"> <b>Date: </b> 01/10/1999 </h5>
+                      <h5 class="card-title"><b>Place: </b><a style="text-decoration: none;color: #31d2f2;" href="#">location</a></h5>
+                      <h5 class="card-title"> <b>Media-Status: </b> <a href="#" style="color: #31d2f2;"> Public </a> </h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Madda: </b> <a style="text-decoration: none;color: #31d2f2;" href="#">Al Mauti wa Al Hayaa</a></h5>
+                      <h5 class="card-title"> <b>Khatwib :</b> </h5>
+                      <h5 class="card-title"> <b>Date: </b> 01/10/1999 </h5>
+                      <h5 class="card-title"><b>Place: </b><a style="text-decoration: none;color: #31d2f2;" href="#">location</a></h5>
+                      <h5 class="card-title"> <b>Media-Status: </b> <a style="color: #31d2f2;" href="#"> Public </a> </h5>
+                  </div>
+                </div>
+            </div>
+        </div>
+    <br>
+    <h3 style="text-align: center; color:rgba(250, 250, 250, 0.5); text-decoration: underline;">THE DAILY DARSA</h3>
+    <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Madda: </b> <a style="text-decoration: none;color: #31d2f2;" href="#">Al Mauti wa Al Hayaa</a></h5>
+                      <h5 class="card-title"> <b>Khatwib :</b> </h5>
+                      <h5 class="card-title"> <b>Date: </b> 01/10/1999 </h5>
+                      <h5 class="card-title"><b>Place: </b><a style="text-decoration: none;color: #31d2f2;" href="#">location</a></h5>
+                      <h5 class="card-title"> <b>Media-Status: </b> <a href="#" style="color: #31d2f2;"> Public </a> </h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Madda: </b> <a style="text-decoration: none;color: #31d2f2;" href="#">Al Mauti wa Al Hayaa</a></h5>
+                      <h5 class="card-title"> <b>Khatwib :</b> </h5>
+                      <h5 class="card-title"> <b>Date: </b> 01/10/1999 </h5>
+                      <h5 class="card-title"><b>Place: </b><a style="text-decoration: none;color: #31d2f2;" href="#">location</a></h5>
+                      <h5 class="card-title"> <b>Media-Status: </b> <a href="#" style="color: #31d2f2;"> Public </a> </h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"> <b>Madda: </b> <a style="text-decoration: none;color: #31d2f2;" href="#">Al Mauti wa Al Hayaa</a></h5>
+                      <h5 class="card-title"> <b>Khatwib :</b> </h5>
+                      <h5 class="card-title"> <b>Date: </b> 01/10/1999 </h5>
+                      <h5 class="card-title"><b>Place: </b><a style="text-decoration: none;color: #31d2f2;" href="#">location</a></h5>
+                      <h5 class="card-title"> <b>Media-Status: </b> <a href="#" style="color: #31d2f2;"> Public </a> </h5>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock contents %}
+    

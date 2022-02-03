@@ -1,0 +1,265 @@
+
+
+*  {
+    padding: 0;
+    margin: 0;
+    font-family:"Montserrat";
+    box-sizing: border-box;
+}
+body{
+
+    height: 100vh;
+    width: 100%;
+    background: rgba(48, 207, 199, 0.116) url("/static/signs/img/bgd.jpg") no-repeat;
+    /* background-image: url("signs/img/BG.jpg") ; */
+    /* background-color: #113f3b; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 5%;
+
+}
+.logo{
+    width: 11%;
+    height: 10%;
+    margin-left: 2%;
+}
+.s-s {
+    color: rgb(226, 243, 243);
+    /* width: 600px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    height: 40px;
+    padding: 12px 20px 12px 15px;
+    background-color: white; */
+
+}
+/*REMOVE THAT BLACK THING ON BOX*/
+form input:focus{
+    outline: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+nav ul li a:hover{
+    color: #31d2f2;
+
+}
+nav{
+    padding-top: 15px;
+}
+#signin{
+    font-weight: bold;
+}
+.search{
+    padding-left: 200px;
+}
+.quran{
+    top: 135px;
+    left: 41px;
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    background: #FFFFFF8C 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+}
+.hadith{
+    top: 460px;
+    left: 41px;
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    background: #FFFFFF8C 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+}
+.hadith a {
+    text-decoration: none;
+    color: black;
+}
+.hadith a:hover {
+    text-decoration: none;
+    color: #31d2f2;
+}
+.quran a {
+    text-decoration: none;
+    color: black;
+}
+.quran a:hover {
+    text-decoration: none;
+    color: #31d2f2;
+}
+.qphoto{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 7px;
+    top: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    background-image: url("/static/signs/img/quran.jpg");
+    /* background-color: #010706; */
+    background-size: cover;
+}
+.hphoto{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 7px;
+    top: 80px;
+    border: 2px solid black;
+    background-image: url("/static/signs/img/hadith.jpg");
+    /* background-color: #010c0b; */
+    background-size: cover;
+}
+.bar{
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    width: 16px;
+    height: 640px;
+    background: #7C7C7C40 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.bar1{
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    width: 16px;
+    height: 640px;
+    background: #7C7C7C40 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.bar2{
+    position: absolute;
+    top: 100px;
+    left: 480px;
+    width: 16px;
+    height: 640px;
+    background: #7C7C7C40 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+/* .row1{
+    position: absolute;
+    display: flex;
+    top: 130px;
+    left: 550px;
+    width: 60%;
+    height: 250px;
+    justify-content: space-between;
+
+}
+.row2{
+    position: absolute;
+    display: flex;
+    top: 450px;
+    left: 550px;
+    width: 60%;
+    height: 250px;
+    justify-content: space-between;
+
+}
+.card{
+    top: 0;
+    left: 0;
+    width: 233px;
+    height: 229px;
+    background: transparent conic-gradient(from 114deg at 50% 50%, #45cf4f5e 0.00%, #808080 100.00%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 19px;
+
+
+
+}
+.cont{
+    text-emphasis-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.cont p a {
+    color: black;
+    font-weight: bold;
+
+}
+.cont p a:hover{
+    color: #0dcaf0;
+    font-weight: bold;
+} */
+
+.the_cads{
+    width: 65%;
+    height: 85%;
+    margin-left: 33%;
+
+}
+
+.card {
+    background: transparent conic-gradient(from 114deg at 50% 50%, #1de0e05e 0.00%, #918f8f8e 100.00%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.sign-up-frame{
+
+    width: 50%;
+    height: 70%;
+    margin-left: 40%;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(8px);
+}
+.bd-highlight{
+    color: #31d2f2;
+    font-weight: bold;
+    font-size: larger;
+    border-bottom-color: #31d2f2;
+    text-decoration: underline;
+}
+
+.form-control{
+
+    padding: 5px;
+    border-width: 2px;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    background-color: #fffafa00;
+}
+.sign-button{
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: #31d2f2;
+    padding: 0px;
+    font-size: 1.5rem;
+    color: rgba(240, 255, 255, 0.877);
+    margin-bottom: 20px;
+
+}
